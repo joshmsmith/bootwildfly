@@ -85,8 +85,8 @@
 
             <plugin>
                 <groupId>org.jvnet.jaxb2.maven2</groupId>
-                <artifactId>maven-jaxb2-plugin</artifactId>
-                <version>0.12.3</version>
+                <artifactId>maven-jaxb22-plugin</artifactId>
+                <version>0.13.1</version>
                 <executions>
                     <execution>
                         <id>generate-schema</id>
