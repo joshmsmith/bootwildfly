@@ -11,7 +11,7 @@ public class HelloWildFlyController {
 
     @RequestMapping("hello")
     public String sayHello() {
-        return ("Hello, SpringBoot on Wildfly from computer: " + getComputerName());
+        return ("Hello from SpringBoot on computer: " + getComputerName());
     }
 
     private String getComputerName() {
